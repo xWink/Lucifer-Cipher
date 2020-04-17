@@ -7,7 +7,7 @@
 ## How to Use luc.f95:
 
 1. Compile with `gfortran luc.f95`
-2. Run with ./a.out
+2. Run with `./a.out`
 3. Input a 32 byte key
 4. Input a 32 byte ASCII message
 5. Program will encrypt the message and output ciphertext, then decrypt it and display the original message
@@ -24,7 +24,7 @@ Original Message: AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBB
 ## How to Use luchex.f95:
 
 1. Compile with `gfortran hex.f95 luchex.f95`
-2. Run with ./a.out
+2. Run with `./a.out`
 3. Input a 32 byte key
 4. Input any ASCII message up to 32 bytes
 5. Program will encrypt the message and output ciphertext, then decrypt it and display the message in hexadecimal
